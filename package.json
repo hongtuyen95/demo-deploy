@@ -7,7 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "postinstall": "ng build --aot --target=production",
+    "postinstall": "ng build --configuration production",
     "e2e": "ng e2e"
   },
   "engines": {
